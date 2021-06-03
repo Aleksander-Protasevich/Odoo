@@ -1,2 +1,2 @@
 from . import product_configuration
-# from . import product
+from . import product
