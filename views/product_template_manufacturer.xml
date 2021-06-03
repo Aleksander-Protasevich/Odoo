@@ -8,9 +8,9 @@
         <field name="arch" type="xml">
             <field name="barcode" position="after">
                 <field name="product_manufacturer"/>
+                <field name="product_model"/>
             </field>   
         </field>
     </record>
 
 </odoo>
-

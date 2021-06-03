@@ -4,7 +4,6 @@
 from odoo import api, models, fields
 
 class ProductManufacturer(models.Model):
-    # _inherit = "product.template"
     _name = "product.manufacturer"
     _description = "Product Manufacturer"
     _rec_name = 'manufacturer'
@@ -22,3 +21,4 @@ class ProductModel(models.Model):
 
     model = fields.Char('Model', index=True, required=True)
     parent_id = fields.Many2one('product.manufacturer', 'Product Manufacturer', index=True, ondelete='cascade')
+    

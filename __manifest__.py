@@ -11,7 +11,7 @@
         'views\product_manufacturer_menu.xml',
         'views\product_model_menu.xml',
         'views\product_template_manufacturer.xml',
-        'views\product_template_model.xml',
+        # 'views\product_template_model.xml',
     ],
     'demo': [],
     'qweb': [],
